@@ -1,3 +1,84 @@
-body {
-    padding-top: 5rem;
+
+
+#follow-buttontn:active{
+    box-shadow: 0px 0px 0px white;
 }
+
+#posts_num,#followers_count,#no_following{
+    font-weight: solid black;
+    font-size:18px;
+}
+
+.stat_label, #Biography{
+    color: gray;
+}
+
+.top_part{
+    color: white;
+}
+
+#fullname{
+    font-size: 35px;
+    text-shadow: 0px 4px 4px grey;
+}
+
+#profile_image{
+    
+    border-radius: 55%;
+    box-shadow: -2px 2px 10px slategrey;
+    width: 155px;
+    height: 155px;
+
+}
+
+body {
+    padding-top: 6rem;
+}
+
+#top_profile, #bottom_profile{
+    padding: 15px 30px;
+    border: gray solid;
+}
+
+#follow-button{
+    width: 55%;
+    text-align: center;
+    background: #98fb98;
+    border-radius: 10px;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    box-shadow: -2px 2px 10px slategrey;
+}
+
+
+
+#bottom_profile{
+    border-width: 0.05px 1px 1px 1px;
+    margin: 0% 30% 10% 30%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.top_part, .bottom_part{
+    margin: 5px 30px;
+    text-align: center;
+}
+
+.bottom_part .row .column{
+    width: 33%;
+}
+
+.bottom_part span{
+    display: block;
+}
+#top_profile{
+    background: linear-gradient(to top left, 	#FF4500 0%, #FFFF33 100%);
+    background: linear-gradient(to top right, 	#FF4500 0%,#FFFF33 100%);
+    background: linear-gradient(to bottom right,#FF4500 0%, #FFFF33 100%);
+    background: linear-gradient(to bottom left,	#FF4500 0%, #FFFF33 100%);
+    margin: 10% 30% 0% 30%;
+    border-radius: 25px 2px 0px 0px;
+    border-width: 1px 1px 0.05px 1px;
+}
+
+
